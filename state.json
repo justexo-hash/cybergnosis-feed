@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "status": "dormant",
+  "updatedAt": null,
+  "wallet": null,
+  "stats": {
+    "tradesExecuted": null,
+    "volumeUsd": null,
+    "uptimeHours": null,
+    "realizedPnlUsd": null
+  },
+  "trades": []
+}
