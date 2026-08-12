@@ -1,24 +1,28 @@
 {
   "version": 1,
   "status": "live",
-  "updatedAt": "2026-08-12T18:51:59+00:00",
+  "updatedAt": "2026-08-12T19:07:05+00:00",
   "wallet": "0xE0E5F747142000AC8764A6ADdD4a3E6A97cc2D9C",
   "stats": {
-    "tradesExecuted": 5,
-    "volumeUsd": 124.79,
-    "uptimeHours": 0.0,
-    "realizedPnlUsd": -0.21
+    "tradesExecuted": 6,
+    "volumeUsd": 149.69,
+    "uptimeHours": 0.25,
+    "realizedPnlUsd": -0.31
   },
-  "position": {
-    "symbol": "TSLA",
-    "qty": 0.076538,
-    "costUsd": 25.0,
-    "markUsd": 25.02,
-    "unrealizedUsd": 0.02,
-    "markedAt": "2026-08-12T18:51:59+00:00"
-  },
-  "nextCycleAt": null,
+  "position": null,
+  "nextCycleAt": "2026-08-12T19:07:02+00:00",
   "trades": [
+    {
+      "ts": "2026-08-12T19:07:05+00:00",
+      "symbol": "TSLA",
+      "side": "sell",
+      "qty": 0.076055,
+      "priceUsd": 327.353048,
+      "usd": 24.9,
+      "tx": "0xac652896076a394dd76905337c65520c1a1bacfb35457141a98068e1353b599a",
+      "pnlUsd": -0.1,
+      "note": "rotation: out of TSLA"
+    },
     {
       "ts": "2026-08-12T18:51:58+00:00",
       "symbol": "TSLA",
