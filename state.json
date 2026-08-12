@@ -1,24 +1,28 @@
 {
   "version": 1,
   "status": "live",
-  "updatedAt": "2026-08-12T17:29:17+00:00",
+  "updatedAt": "2026-08-12T17:42:33+00:00",
   "wallet": "0xE0E5F747142000AC8764A6ADdD4a3E6A97cc2D9C",
   "stats": {
-    "tradesExecuted": 1,
-    "volumeUsd": 25.0,
+    "tradesExecuted": 2,
+    "volumeUsd": 49.85,
     "uptimeHours": 0.0,
-    "realizedPnlUsd": null
+    "realizedPnlUsd": -0.15
   },
-  "position": {
-    "symbol": "GOOGL",
-    "qty": 0.072759,
-    "costUsd": 25.0,
-    "markUsd": 24.84,
-    "unrealizedUsd": -0.16,
-    "markedAt": "2026-08-12T17:29:17+00:00"
-  },
+  "position": null,
   "nextCycleAt": null,
   "trades": [
+    {
+      "ts": "2026-08-12T17:42:33+00:00",
+      "symbol": "GOOGL",
+      "side": "sell",
+      "qty": 0.072759,
+      "priceUsd": 341.504773,
+      "usd": 24.85,
+      "tx": "0x657ba7baf860bc7a4b571f522511f40389c68120d1c9bba94dcee2c52f2318fb",
+      "pnlUsd": -0.15,
+      "note": "rotation: out of GOOGL"
+    },
     {
       "ts": "2026-08-12T17:29:16+00:00",
       "symbol": "GOOGL",
@@ -26,7 +30,7 @@
       "qty": 0.072759,
       "priceUsd": 343.601319,
       "usd": 25.0,
-      "tx": "ca35c6da4cd32857576af66f2d945bfe0a15fe7cedb9621c1c97930ef163b0ad",
+      "tx": "0xca35c6da4cd32857576af66f2d945bfe0a15fe7cedb9621c1c97930ef163b0ad",
       "pnlUsd": null,
       "note": "rotation: into GOOGL"
     }
