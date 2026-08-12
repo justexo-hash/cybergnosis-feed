@@ -1,17 +1,35 @@
 {
   "version": 1,
   "status": "live",
-  "updatedAt": "2026-08-12T17:42:33+00:00",
+  "updatedAt": "2026-08-12T17:57:39+00:00",
   "wallet": "0xE0E5F747142000AC8764A6ADdD4a3E6A97cc2D9C",
   "stats": {
-    "tradesExecuted": 2,
-    "volumeUsd": 49.85,
-    "uptimeHours": 0.0,
+    "tradesExecuted": 3,
+    "volumeUsd": 74.85,
+    "uptimeHours": 0.25,
     "realizedPnlUsd": -0.15
   },
-  "position": null,
-  "nextCycleAt": null,
+  "position": {
+    "symbol": "NVDA",
+    "qty": 0.111746,
+    "costUsd": 25.0,
+    "markUsd": 25.02,
+    "unrealizedUsd": 0.02,
+    "markedAt": "2026-08-12T17:57:39+00:00"
+  },
+  "nextCycleAt": "2026-08-12T17:57:35+00:00",
   "trades": [
+    {
+      "ts": "2026-08-12T17:57:38+00:00",
+      "symbol": "NVDA",
+      "side": "buy",
+      "qty": 0.111746,
+      "priceUsd": 223.722036,
+      "usd": 25.0,
+      "tx": "0xed220b4367050f249eb39248bd24b6f5ade63b6de82ee6cc5a9a544ec5050a5c",
+      "pnlUsd": null,
+      "note": "rotation: into NVDA"
+    },
     {
       "ts": "2026-08-12T17:42:33+00:00",
       "symbol": "GOOGL",
