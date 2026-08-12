@@ -1,24 +1,28 @@
 {
   "version": 1,
   "status": "live",
-  "updatedAt": "2026-08-12T17:57:39+00:00",
+  "updatedAt": "2026-08-12T18:12:45+00:00",
   "wallet": "0xE0E5F747142000AC8764A6ADdD4a3E6A97cc2D9C",
   "stats": {
-    "tradesExecuted": 3,
-    "volumeUsd": 74.85,
-    "uptimeHours": 0.25,
-    "realizedPnlUsd": -0.15
+    "tradesExecuted": 4,
+    "volumeUsd": 99.78,
+    "uptimeHours": 0.5,
+    "realizedPnlUsd": -0.22
   },
-  "position": {
-    "symbol": "NVDA",
-    "qty": 0.111746,
-    "costUsd": 25.0,
-    "markUsd": 25.02,
-    "unrealizedUsd": 0.02,
-    "markedAt": "2026-08-12T17:57:39+00:00"
-  },
-  "nextCycleAt": "2026-08-12T17:57:35+00:00",
+  "position": null,
+  "nextCycleAt": "2026-08-12T18:12:42+00:00",
   "trades": [
+    {
+      "ts": "2026-08-12T18:12:45+00:00",
+      "symbol": "NVDA",
+      "side": "sell",
+      "qty": 0.111734,
+      "priceUsd": 223.185862,
+      "usd": 24.94,
+      "tx": "0xfdb52107ad56660947fd83e75bdbec836cf17deccac488446a4f3a57a3d084f0",
+      "pnlUsd": -0.06,
+      "note": "rotation: out of NVDA"
+    },
     {
       "ts": "2026-08-12T17:57:38+00:00",
       "symbol": "NVDA",
